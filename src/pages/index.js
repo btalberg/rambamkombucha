@@ -17,7 +17,7 @@ const IndexPage = () => (
             <div>
               <Title>Rämbäm (/rähm bähm/)</Title>
               <p>
-                Inspired and named after Maimonides (<span className='underline'>R</span>abbi <span className='underline'>M</span>oses <span className='underline'>b</span>en <span className='underline'>M</span>aimon), a medieval Sephardic Jewish philosopher. Kombucha promotes healthy digestion through a variety of probiotics. Known as “The Tea of Immortality” in Japan, Russia, and Eastern Europe, dating back to the Chinese Tsin Dynasty, 221 BCE. RÄMBÄM nourishes the soul through healthy diet.
+                Inspired and named after Maimonides (<span className='underline'>R</span>abbi <span className='underline'>M</span>oses <span className='underline'>b</span>en <span className='underline'>M</span>aimon), a medieval Sephardic Jewish philosopher. Kombucha promotes healthy digestion through a variety of probiotics. Known as “The Tea of Immortality” in Japan, Russia, and Eastern Europe, dating back to the Chinese Tsin Dynasty of the 3rd century BCE, RÄMBÄM nourishes the soul through healthy diet.
               </p>
               <br/>
               <p>

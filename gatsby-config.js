@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Rambam Kombucha',
+    title: 'Rämbäm Kombucha',
     siteUrl: `https://rambamkombucha.org`,
     description: `Twin Cities Kombucha Brewer, helping nourish the soul through healthy diet`,
     siteSocialUrls: [
@@ -12,5 +12,23 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: `./src/images/favicon.png`,
+        injectHTML: true,
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          coast: false,
+          favicons: true,
+          firefox: true,
+          twitter: false,
+          yandex: false,
+          windows: false
+        }
+      }
+    }
   ],
 };
